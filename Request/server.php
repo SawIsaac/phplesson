@@ -10,3 +10,10 @@
     <a href="client.php">Go to Client site</a>
 </body>
 </html>
+
+<?php
+    echo "<pre>";
+    var_dump($_POST);
+    var_dump($_FILES);
+
+?>
